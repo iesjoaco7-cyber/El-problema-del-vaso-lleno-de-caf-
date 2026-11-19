@@ -1,0 +1,2 @@
+fecha,hora,turno,barista_id,causa,evitable,gramos,destino,observaciones
+2026-12-01,08:05,mañana,B01,Purgas (inicio y ajustes),False,0.0,compost,EJEMPLO - borrar esta fila

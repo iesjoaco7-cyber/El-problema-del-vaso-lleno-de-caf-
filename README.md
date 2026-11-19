@@ -4,6 +4,7 @@
 
 Proyecto de investigación aplicada de la carrera **Técnico Superior en Ciencia de Datos e Inteligencia Artificial** (Argentina).
 Autor: **Joaquín** · Proyecto independiente 
+
 ---
 
 ## 1. Resumen ejecutivo

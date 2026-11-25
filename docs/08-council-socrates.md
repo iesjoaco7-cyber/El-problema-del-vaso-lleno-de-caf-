@@ -74,4 +74,5 @@ Aplicación del método *elenchus* en formato standalone: identificar suposicion
 ## Dónde puedo estar equivocado
 
 - Puede que en cafeterías de alto volumen el pre-molido sea **necesario** para sostener la velocidad, y que el costo de la merma sea menor que el costo de clientes que se van por demora. En ese caso, el equilibrio óptimo no es "merma mínima", sino **merma económicamente óptima**.
+- **Resultado de campo (2026-11-25):** la encuesta confirmó esta advertencia. La causa dominante no es el pre-molido sino la calibración, las purgas y la dosificación sin balanza (doc 10).
 - El método socrático asume que el problema está bien medido una vez que está bien definido. En la práctica, el registro hecho por personas tiene sesgo (subregistro). Por eso la conciliación stock vs. caja es el control cruzado obligatorio.

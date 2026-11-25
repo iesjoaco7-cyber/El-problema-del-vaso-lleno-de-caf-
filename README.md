@@ -11,6 +11,8 @@ Autor: **Joaquín** · Proyecto independiente (no forma parte de la tesis de tue
 
 En una cafetería take away, cada extracción de espresso o cada filtrado deja pequeñas pérdidas de café molido: **purgas del molino, retención en la cámara de molienda, shots de calibración, shots descartados, dosis pasadas de peso, café pre-molido que nadie usa y lotes de filtrado sobredimensionados**. Ninguna de esas pérdidas se ve en el momento; se ven a fin de mes, cuando el **consumo de café registrado en el stock no coincide con lo que se vendió en caja**.
 
+> 🔄 **Actualización 2026-11-25 · validación de campo:** la encuesta a 18 cafeterías (Formulario A) **no confirmó** que la merma venga del café pre-molido ni del sobrante al cierre. Lo que sí apareció es merma en **calibración, purgas y dosificación sin balanza**, con poco control diario. La problemática se reformuló en consecuencia: ver [`docs/10-validacion-formulario-A.md`](docs/10-validacion-formulario-A.md).
+
 Este repositorio documenta el análisis completo del problema siguiendo una estructura de 6 fases:
 
 | # | Fase | Documento |
@@ -25,6 +27,7 @@ Este repositorio documenta el análisis completo del problema siguiendo una estr
 | 7 | Solución tecnológica (Ciencia de Datos e IA) y alcance | [`docs/07-solucion-tecnologica-y-alcance.md`](docs/07-solucion-tecnologica-y-alcance.md) |
 | 8 | Examen socrático (council-socrates) | [`docs/08-council-socrates.md`](docs/08-council-socrates.md) |
 | 9 | Guía de relevamiento en campo | [`docs/09-guia-relevamiento-campo.md`](docs/09-guia-relevamiento-campo.md) |
+| 10 | **Validación de campo · Formulario A** (18 respuestas) | [`docs/10-validacion-formulario-A.md`](docs/10-validacion-formulario-A.md) |
 
 Material de soporte:
 
@@ -32,6 +35,7 @@ Material de soporte:
 - [`data/diccionario_de_datos.md`](data/diccionario_de_datos.md) → definición de cada variable.
 - [`data/mermas_SIMULADO.csv`](data/mermas_SIMULADO.csv) → **datos simulados** (no reales) para probar el pipeline.
 - [`notebooks/01_pareto_y_rendimiento.ipynb`](notebooks/01_pareto_y_rendimiento.ipynb) → KPIs, Pareto 80/20 y escenarios hacia el 15 %.
+- [`formularios/`](formularios/) → script de Google Apps Script que crea el Formulario A y su planilla de respuestas.
 
 ---
 
@@ -54,13 +58,14 @@ El examen socrático del proyecto (ver doc 08) detectó que los dos objetivos es
 
 | Fase | Estado |
 |------|--------|
-| Definición de la problemática | ✅ Hipótesis formulada |
-| Validación en campo (entrevista + medición de línea base) | ⏳ Pendiente |
-| Pareto con datos reales | ⏳ Pendiente (hoy: datos simulados) |
+| Definición de la problemática | ✅ Hipótesis formulada (v1) · 🔄 reformulada tras la encuesta (v2) |
+| Encuesta a cafeterías (Formulario A) | ✅ 18 respuestas · hipótesis R1 (pre-molido) refutada |
+| Entrevistas y medición de línea base en barra (Formulario B) | ⏳ Pendiente · **prioridad** |
+| Pareto con datos reales | ⏳ Pendiente (hoy: datos simulados con la hipótesis v1) |
 | MVP de registro y tablero | ⏳ Pendiente |
 | Piloto de valorización | ⏳ Pendiente |
 
-> ⚠️ **Advertencia de honestidad metodológica:** todos los números de este repositorio que no tengan fuente son **supuestos o datos simulados**, marcados como tales. La problemática se considera *hipótesis* hasta que la medición de línea base en al menos una cafetería real la confirme o la refute.
+> ⚠️ **Advertencia de honestidad metodológica:** todos los números de este repositorio que no tengan fuente son **supuestos o datos simulados**, marcados como tales. La problemática se considera *hipótesis* hasta que la medición de línea base en al menos una cafetería real la confirme o la refute. Las respuestas individuales de la encuesta **no se publican** (consentimiento de uso agregado); solo los resultados del doc 10.
 
 ---
 

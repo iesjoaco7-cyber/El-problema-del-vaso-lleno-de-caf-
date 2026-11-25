@@ -4,3 +4,8 @@ __pycache__/
 *.pyc
 .env
 data/*_REAL_privado.csv
+
+# Respuestas crudas de encuestas: no se publican (consentimiento de uso agregado)
+formularios/respuestas/
+*Respuestas*Formulario*.xlsx
+*Respuestas*Formulario*.csv

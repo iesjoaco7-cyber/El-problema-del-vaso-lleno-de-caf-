@@ -1,5 +1,7 @@
 # 04 · Objetivos específicos
 
+> 🔄 **Ajuste tras la validación de campo (2026-11-25):** **OE1 (medir)** y **OE2 (reducir)** pasan a ser el núcleo del proyecto, con foco en calibración, purgas y dosificación. **OE3 (valorizar)** queda como secundario u opcional, porque el 78 % de los locales encuestados no tiene sobrante al cierre. **OE4 (consumo interno)** ya está resuelto en la práctica en el 78 % de los locales. Detalle en [`10-validacion-formulario-A.md`](10-validacion-formulario-A.md).
+
 ## 1. Objetivos originales
 
 1. Utilizar el café sobrante para la elaboración de algún producto que pueda usar ese café viejo (buscando envasarlo para que no pierda mucha calidad).

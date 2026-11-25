@@ -1,6 +1,16 @@
 # 02 · Problemática y justificación
 
+> 🔄 **Estado de la hipótesis (2026-11-25):** la encuesta a 18 cafeterías refutó la raíz **R1** (pre-molido: 78 % nunca pre-muele) y no encontró sobrante al cierre en el 78 % de los locales. Se sostienen **R3** (56 % no dosifica siempre con balanza), **R4** (calibración y purgas ≈ 8 % del café diario) y **R7** (39 % controla el consumo solo una vez por mes o nunca). Este documento conserva la **versión 1** por trazabilidad; ver la versión 2 abajo y el detalle en [`10-validacion-formulario-A.md`](10-validacion-formulario-A.md).
+
 ## 1. Enunciado de la problemática
+
+### Versión 2 (vigente, tras la validación de campo)
+
+> **En las cafeterías de especialidad, el café que se pierde en calibraciones, purgas y dosificación sin balanza no se registra durante el turno. La mayoría muele a demanda y no le sobra café al cierre, pero tampoco mide cuánto café usa por taza real ni cuánto se va en cada ajuste del molino, por lo que la pérdida queda invisible y no se puede reducir.**
+
+Nueva hipótesis de Pareto a verificar en barra: **calibración + purgas + sobredosis**.
+
+### Versión 1 (original, parcialmente refutada)
 
 > **En las cafeterías take away, el café molido que no termina en una bebida vendida (purgas, retención, calibraciones, shots descartados, sobredosis, café pre-molido y lotes de filtrado sobrantes) no se registra ni se mide durante el turno. La pérdida solo aparece de forma agregada al cierre mensual, como una diferencia entre el café consumido del stock y el café vendido en caja, cuando ya no se puede saber dónde, cuándo ni por qué ocurrió. Como el café molido pierde calidad en minutos u horas, ese sobrante no puede volver a la taza y termina desechado o entregado al personal como "sobra", lo que genera pérdida económica, desaprovecha un insumo caro e importado y resulta poco digno como beneficio para el equipo.**
 

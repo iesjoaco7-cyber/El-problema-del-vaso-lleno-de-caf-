@@ -3,7 +3,7 @@
 > **¿Cuánto café molido termina en la basura de una cafetería take away al final de cada turno, por qué pasa, y cómo convertir esa pérdida en información y en ganancia, sin venderle café viejo al cliente ni darle "las sobras" al equipo?**
 
 Proyecto de investigación aplicada de la carrera **Técnico Superior en Ciencia de Datos e Inteligencia Artificial** (Argentina).
-Autor: **Joaquín** · Proyecto independiente 
+Autor: **Joaquín** · Proyecto independiente (no forma parte de la tesis de tueste) · Licencia [MIT](LICENSE).
 
 ---
 
@@ -12,6 +12,8 @@ Autor: **Joaquín** · Proyecto independiente
 En una cafetería take away, cada extracción de espresso o cada filtrado deja pequeñas pérdidas de café molido: **purgas del molino, retención en la cámara de molienda, shots de calibración, shots descartados, dosis pasadas de peso, café pre-molido que nadie usa y lotes de filtrado sobredimensionados**. Ninguna de esas pérdidas se ve en el momento; se ven a fin de mes, cuando el **consumo de café registrado en el stock no coincide con lo que se vendió en caja**.
 
 > 🔄 **Actualización 2026-11-25 · validación de campo:** la encuesta a 18 cafeterías (Formulario A) **no confirmó** que la merma venga del café pre-molido ni del sobrante al cierre. Lo que sí apareció es merma en **calibración, purgas y dosificación sin balanza**, con poco control diario. La problemática se reformuló en consecuencia: ver [`docs/10-validacion-formulario-A.md`](docs/10-validacion-formulario-A.md).
+
+![La merma no está en el café que sobra: está en purgas, calibración y dosificación](docs/img/hallazgos_formulario_A.png)
 
 Este repositorio documenta el análisis completo del problema siguiendo una estructura de 6 fases:
 

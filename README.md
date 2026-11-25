@@ -3,7 +3,7 @@
 > **¿Cuánto café molido termina en la basura de una cafetería take away al final de cada turno, por qué pasa, y cómo convertir esa pérdida en información y en ganancia, sin venderle café viejo al cliente ni darle "las sobras" al equipo?**
 
 Proyecto de investigación aplicada de la carrera **Técnico Superior en Ciencia de Datos e Inteligencia Artificial** (Argentina).
-Autor: **Joaquín** · Proyecto independiente (no forma parte de la tesis de tueste).
+Autor: **Joaquín** · Proyecto independiente 
 
 ---
 
